@@ -62,11 +62,11 @@ body {
 
 //   /////////// Side Nav //////
 
-.sidepanel  {
+.sidebar {
+    height: 100%;
     width: 0;
     position: fixed;
     z-index: 1;
-    height: 250px;
     top: 0;
     left: 0;
     background-color: #111;
@@ -75,7 +75,7 @@ body {
     padding-top: 60px;
   }
   
-  .sidepanel a {
+  .sidebar a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
@@ -84,15 +84,16 @@ body {
     transition: 0.3s;
   }
   
-  .sidepanel a:hover {
+  .sidebar a:hover {
     color: #f1f1f1;
   }
   
-  .sidepanel .closebtn {
+  .sidebar .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
     font-size: 36px;
+    margin-left: 50px;
   }
   
   .openbtn {
@@ -102,4 +103,13 @@ body {
     color: white;
     padding: 10px 15px;
     border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
   }
