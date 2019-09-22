@@ -119,8 +119,33 @@ body {
   .hero {
 
     margin-bottom: auto;
-    margin-top: -7rem;
-    background: url(../img/home_banner001.jpg) center / cover no-repeat;
+    margin-top: 20rem;
+    background: url(../img/bridge.jpg) center / cover no-repeat;
     height: 30rem;
     width: 100vw;
+    color: #fff;
   }
+
+.lg-space-top {
+
+    margin-top: 5rem;
+
+}
+
+.lg-space-bottom {
+
+    margin-bottom: 5rem;
+
+}
+
+.sm-space-top {
+
+    margin-top: 2rem;
+    
+}
+
+.sm-space-bottom {
+
+    margin-bottom: 2rem;
+    
+}
