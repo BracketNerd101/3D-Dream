@@ -1,21 +1,18 @@
 body {
-  min-height: 10rem; }
+  min-height: 10rem;
+}
 
 #navbar {
   overflow: hidden;
   background-color: #ffffff;
-  padding: 90px 10px;
+  padding: 70px 10px;
   transition: 0.4s;
   position: fixed;
   width: 100%;
-  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
-  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  -moz-box-shadow: 3px 3px 5px 6px #ccc;
-  /* Firefox 3.5 - 3.6 */
-  box-shadow: 2px 2px 4px 5px #ccc;
-  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  border-bottom: 2px solid #f3f3f3;
   top: 0;
-  z-index: 99; }
+  z-index: 99;
+}
 
 #navbar a {
   float: left;
@@ -25,35 +22,44 @@ body {
   text-decoration: none;
   font-size: 18px;
   line-height: 25px;
-  border-radius: 4px; }
+  border-radius: 4px;
+}
 
 #navbar #logo {
   font-size: 35px;
   font-weight: bold;
-  transition: 0.4s; }
+  transition: 0.4s;
+}
 
 #navbar a:hover {
   background-color: #ddd;
-  color: black; }
+  color: black;
+}
 
 #navbar a.active {
   background-color: dodgerblue;
-  color: white; }
+  color: white;
+}
 
 #navbar-right {
-  float: right; }
+  float: right;
+}
 
 @media screen and (max-width: 580px) {
   #navbar {
-    padding: 20px 10px !important; }
+    padding: 20px 10px !important;
+  }
 
   #navbar a {
     float: none;
     display: block;
-    text-align: left; }
+    text-align: left;
+  }
 
   #navbar-right {
-    float: none; } }
+    float: none;
+  }
+}
 .sidebar {
   height: 100%;
   width: 0;
@@ -64,7 +70,8 @@ body {
   background-color: #111;
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 60px; }
+  padding-top: 60px;
+}
 
 .sidebar a {
   padding: 8px 8px 8px 32px;
@@ -72,17 +79,20 @@ body {
   font-size: 25px;
   color: #818181;
   display: block;
-  transition: 0.3s; }
+  transition: 0.3s;
+}
 
 .sidebar a:hover {
-  color: #f1f1f1; }
+  color: #f1f1f1;
+}
 
 .sidebar .closebtn {
   position: absolute;
   top: 0;
   right: 25px;
   font-size: 36px;
-  margin-left: 50px; }
+  margin-left: 50px;
+}
 
 .openbtn {
   font-size: 20px;
@@ -90,13 +100,16 @@ body {
   background-color: #111;
   color: white;
   padding: 10px 15px;
-  border: none; }
+  border: none;
+}
 
 .openbtn:hover {
-  background-color: #444; }
+  background-color: #444;
+}
 
 #main {
-  transition: margin-left .5s; }
+  transition: margin-left 0.5s;
+}
 
 .hero {
   margin-bottom: auto;
@@ -104,18 +117,31 @@ body {
   background: url(../img/bridge.jpg) center/cover no-repeat;
   height: 30rem;
   width: 100vw;
-  color: #fff; }
+  color: #fff;
+}
 
 .lg-space-top {
-  margin-top: 5rem; }
+  margin-top: 5rem;
+}
 
 .lg-space-bottom {
-  margin-bottom: 5rem; }
+  margin-bottom: 5rem;
+}
 
 .sm-space-top {
-  margin-top: 2rem; }
+  margin-top: 2rem;
+}
 
 .sm-space-bottom {
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+}
+
+#logo {
+  font-family: "Anton", sans-serif;
+}
+
+.hero-title {
+  font-family: "Anton", sans-serif;
+}
 
 /*# sourceMappingURL=main-style.css.map */

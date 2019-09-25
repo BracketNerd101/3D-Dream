@@ -7,13 +7,14 @@ body {
 #navbar {
     overflow: hidden;
     background-color: #ffffff;
-    padding: 90px 10px;
+    padding: 70px 10px;
     transition: 0.4s;
     position: fixed;
     width: 100%;
-    -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
-  box-shadow:         2px 2px 4px 5px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+    border-bottom: 2px solid #f3f3f3;
+    // -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+//   -moz-box-shadow:  3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+//   box-shadow:       2px 2px 4px 5px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
     top: 0;
     z-index: 99;
   }
@@ -151,3 +152,18 @@ body {
     margin-bottom: 2rem;
     
 }
+
+
+#logo {
+
+    font-family: 'Anton', sans-serif;
+}
+
+.hero-title {
+
+    font-family: 'Anton', sans-serif;
+    
+}
+
+// font-family: 'Anton', sans-serif;
+// font-family: 'Abel', sans-serif;
