@@ -103,7 +103,6 @@ body {
   .openbtn {
     font-size: 20px;
     cursor: pointer;
-    background-color: #111;
     color: white;
     padding: 10px 15px;
     border: none;
@@ -192,7 +191,7 @@ body {
 .fun_info {
 
   height: inherit;
-  width: 100%;
+  width: auto;
   background-color: green;
   color: white;
 
@@ -204,7 +203,7 @@ body {
 
   .fun_header {
 
-    font-size: 15rem !important;
+    font-size: 4rem !important;
     font-variant-caps: all-small-caps;
     font-family: 'Anton', sans-serif;
   }
@@ -218,3 +217,46 @@ body {
 
   }
 }
+
+.pattern-squares {
+
+    height: 7rem;
+    width: auto;
+}
+
+.pattern-squares-thin {
+
+    height: 1.2rem;
+    width: auto;
+}
+
+
+.spots_info {
+
+    height: inherit;
+    width: auto;
+    background-color:#f2f2f2;
+    color: white;
+  
+  
+    .img_space_style {
+  
+      padding-bottom: 8rem;
+    }
+  
+    .fun_header {
+  
+      font-size: 4rem !important;
+      font-variant-caps: all-small-caps;
+      font-family: 'Anton', sans-serif;
+    }
+  
+    .fun_text {
+  
+      font-size: 2rem;
+      line-height: 2.1rem;
+      font-family: 'Abel', sans-serif;
+      padding-bottom: 4rem;
+  
+    }
+  }
